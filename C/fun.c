@@ -1,3 +1,5 @@
-int main(){
-    print("hello World!\n");
+#include<stdio.h>
+void main(){
+    printf("hello World!\n");
+    getchar();
 }

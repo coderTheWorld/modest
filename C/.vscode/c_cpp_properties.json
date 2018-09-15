@@ -3,6 +3,14 @@
         {
             "name": "Win32",
             "includePath": [
+                "E:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.15.26726\\include",
+                "E:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.15.26726\\atlmfc\\include",
+                "E:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Auxiliary\\VS\\include",
+                "E:\\Windows Kits\\10\\Include\\10.0.17134.0\\ucrt",
+                "E:\\Windows Kits\\10\\Include\\10.0.17134.0\\um",
+                "E:\\Windows Kits\\10\\Include\\10.0.17134.0\\shared",
+                "E:\\Windows Kits\\10\\Include\\10.0.17134.0\\winrt",
+                "E:\\Windows Kits\\10\\Include\\10.0.17134.0\\cppwinrt",
                 "${workspaceFolder}/**"
             ],
             "defines": [
@@ -10,6 +18,8 @@
                 "UNICODE",
                 "_UNICODE"
             ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
             "intelliSenseMode": "msvc-x64"
         }
     ],
