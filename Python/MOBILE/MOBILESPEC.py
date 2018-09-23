@@ -1,7 +1,7 @@
 import sys
 
 try:
-    with open("F:\SourceCode\Python\《八十一数吉凶佩带琥珀守护神八卦吉祥笔画划表》.txt", "r", encoding="UTF-8") as f:
+    with open(".\《八十一数吉凶佩带琥珀守护神八卦吉祥笔画划表》.txt", "r", encoding="UTF-8") as f:
         line = f.readlines()
         for num in sys.argv[1:]:
             print(num, end=" ")
